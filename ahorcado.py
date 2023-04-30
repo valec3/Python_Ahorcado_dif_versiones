@@ -1,4 +1,5 @@
 import random
+import os
 
 palabras = ["Arbol","Licuadora","Mesa","Celeste","Persona","Mirador","Comunicar","Reciclar"]
 vidas = 6
@@ -65,6 +66,7 @@ def juego(gameover):
             print("="*10,"\nGANASTE\n","="*10)
             break
 
-
+os.system("cls")
+print("+"*40,"\n")
 juego(gameover)
 
