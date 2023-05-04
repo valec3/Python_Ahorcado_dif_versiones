@@ -11,6 +11,9 @@ def encriptar_basico_re(frase,caracter="x"):
     return frase_encriptada
 
 def cifrado_cesar():
+    """_summary
+    Funcion para cifrar usando el metodo cesar
+    """
     pass
 
 

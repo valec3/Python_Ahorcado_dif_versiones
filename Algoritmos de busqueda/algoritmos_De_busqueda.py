@@ -44,7 +44,6 @@ def busqueda_hash( valor):
     else:
         return -1
 
-
 def buscar(tipo_busqueda,valor):
     print(f"EL numero {valor} se encuentra en { tipo_busqueda(valor) }")
 
